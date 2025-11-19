@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Catalog from './pages/Catalog'
 import Product from './pages/Product'
 import Policy from './pages/Policy'
+import Cinematic from './pages/Cinematic'
 import './index.css'
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <nav className="ml-auto flex items-center gap-4 text-sm">
             <Link className="hover:text-cyan-300 transition" to="/catalog">Catalog</Link>
             <Link className="hover:text-cyan-300 transition" to="/policy">Delivery & Payment</Link>
+            <Link className="hover:text-cyan-300 transition" to="/cinematic">Cinematic</Link>
             <a className="hover:text-cyan-300 transition" href="#contact">Contacts</a>
           </nav>
         </div>
@@ -36,6 +38,7 @@ function App() {
           <Route path="/catalog" element={<Catalog/>} />
           <Route path="/product/:id" element={<Product/>} />
           <Route path="/policy" element={<Policy/>} />
+          <Route path="/cinematic" element={<Cinematic/>} />
         </Routes>
       </main>
 
