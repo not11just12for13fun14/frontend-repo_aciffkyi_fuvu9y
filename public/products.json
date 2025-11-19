@@ -1,0 +1,65 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "NeonRig Aurora",
+      "price": 1599,
+      "cpu": "Intel Core i5-13600K",
+      "gpu": "NVIDIA RTX 4070 12GB",
+      "ram": "32GB DDR5-6000",
+      "ssd": "1TB NVMe",
+      "tags": ["gaming"],
+      "images": [
+        "https://images.unsplash.com/photo-1600861194942-f883de0dfe96?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1542541864-4abf21a55761?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=800&auto=format&fit=crop"
+      ],
+      "benchmarks": [
+        { "game": "Valorant", "fps": 360 },
+        { "game": "Fortnite", "fps": 180 },
+        { "game": "Cyberpunk 2077 (DLSS)", "fps": 85 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "NeonRig Creator Pro",
+      "price": 2299,
+      "cpu": "AMD Ryzen 9 7900X",
+      "gpu": "NVIDIA RTX 4080 Super 16GB",
+      "ram": "64GB DDR5-6000",
+      "ssd": "2TB NVMe",
+      "tags": ["creativity", "gaming"],
+      "images": [
+        "https://images.unsplash.com/photo-1514760261220-85c7463a4764?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=800&auto=format&fit=crop"
+      ],
+      "benchmarks": [
+        { "game": "Apex Legends", "fps": 220 },
+        { "game": "CS2", "fps": 400 },
+        { "game": "Cyberpunk 2077 (RT Overdrive)", "fps": 70 }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "NeonRig Silent Office",
+      "price": 899,
+      "cpu": "Intel Core i5-12400",
+      "gpu": "Integrated Graphics",
+      "ram": "16GB DDR4-3200",
+      "ssd": "512GB NVMe",
+      "tags": ["office"],
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=800&auto=format&fit=crop"
+      ],
+      "benchmarks": [
+        { "game": "League of Legends", "fps": 120 },
+        { "game": "Valorant", "fps": 144 },
+        { "game": "Minecraft", "fps": 200 }
+      ]
+    }
+  ]
+}
